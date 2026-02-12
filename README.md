@@ -74,6 +74,9 @@ GEMINI.md는 양 플랫폼에서 **항상 로드되는 지속적 컨텍스트 �
 ```markdown
 # 프로젝트 컨텍스트 (GEMINI.md)
 
+## 0. 핵심 사고 지침 (Core Thinking Rule) - [CRITICAL]
+*   **Mandatory Thinking Process**: For EVERY user request, without exception, you MUST initiate your process by calling the `sequentialthinking` tool. You are prohibited from taking any other actions (reading files, executing commands, etc.) until you have systematically analyzed the request and planned your approach within a `sequentialthinking` block.
+
 ## 1. 표준 워크플로우 (Plan-Define-Act)
 모든 복합적인 작업 시 다음 절차를 엄격히 준수합니다.
 1. **PLAN (계획)**: 요청을 분석하여 단계별 실행 계획을 수립하고 사용자 승인을 받습니다.
